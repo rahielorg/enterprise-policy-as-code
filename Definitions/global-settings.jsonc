@@ -1,0 +1,18 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Azure/enterprise-azure-policy-as-code/main/Schemas/global-settings-schema.json",
+    "pacOwnerId": "a4e31b1a-445d-4e2f-8a5c-3023b42badde",
+    "pacEnvironments": [
+        {
+            "pacSelector": "epac-dev",
+            "cloud": "AzureCloud",
+            "tenantId": "cc7cbc41-554b-4f77-999a-de3f366a792c",
+            "deploymentRootScope": "/providers/Microsoft.Management/managementGroups/CAF-dev"
+        },
+        {
+            "pacSelector": "tenant",
+            "cloud": "AzureCloud",
+            "tenantId": "cc7cbc41-554b-4f77-999a-de3f366a792c",
+            "deploymentRootScope": "/providers/Microsoft.Management/managementGroups/CAF"
+        }
+    ]
+}
